@@ -28,5 +28,5 @@ after_build:
 - cmd: dotnet sonarscanner end /d:sonar.login="0abc123d1cbe23b5d8d7fc86b6a49bc98a72c005"
 
 artifacts:
-- path: ZbW.Testing.WpfSample.Client\bin\$(configuration)\netcoreapp3.1
-  name: ZbW.WpfSample
+  - path: ZbW.Testing.WpfSample.Client\bin\$(configuration)\netcoreapp3.1
+    name: ZbW.WpfSample
